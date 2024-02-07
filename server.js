@@ -90,7 +90,7 @@ app.get('/customers/:customerName/bookings', (requeste, response) => {
 });
 
 
-console.log(bookings);
+
 
 
 
