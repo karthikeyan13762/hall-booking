@@ -81,7 +81,7 @@ app.get('/customers/bookings', (request, response) => {
 });
 
 
-// Endpoint for listing how many times a customer has booked the Room
+// Endpoint for listing how many times a customer has booked the room
 
 app.get('/customers/:customerName/bookings', (requeste, response) => {
     const { customerName } = requeste.params;
